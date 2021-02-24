@@ -140,7 +140,7 @@ Power Automate US Government provides the ability to integrate third-party appli
 
 ## Configure mobile clients
 
-Here are the steps that you must take to sign in with the Power Apps mobile client.
+Here are the steps that you must take to sign in with the Power App mobile client.
 
 1. On the sign-in page, select the gear icon in the lower-right corner.
 1. Select **Region settings**.
@@ -241,14 +241,19 @@ Some of the features available in the commercial version of Flow are not availab
 - [Approvals](./modern-approvals.md) are available for GCC and GCC High tenants, subject to the following:
   * There is no actionable approval support. Approval emails will contain links to the Power Automate approvals center for users to respond.
   * There is no markdown support for approval email. 
+  * There is currently no support for setting up Approvals to redirect to the Power Automate Mobile App.
 
 - [Submitting Templates](https://docs.microsoft.com/flow/publish-a-template)
 
+- [Send a Copy](https://docs.microsoft.com/en-us/power-automate/create-team-flows#share-a-copy-of-a-cloud-flow) currently does not send out an email notification. However the copy of the flow will show up under templates if a user searches for it
+
 - [Connectors](https://docs.microsoft.com/connectors/index) – The most popular connectors in use in our commercial service (based on usage telemetry) have been published; if there is a Connector available in the commercial offering that you do not see deployed, please contact support and we will review your request.
+  * Regarding Azure Connectors  in GCC- Some of the connectors require you to use an Azure Government Portal and as such will require a portal setup on the .US endpoint.
 
 - [Power BI](https://docs.microsoft.com/connectors/powerbi/) – Power Automate US Government doesn’t support Power BI at this time.
 
 - [Power Platform admin center](https://docs.microsoft.com/power-platform/admin/admin-documentation) – You can use the admin center to [open support tickets](https://docs.microsoft.com/power-platform/admin/get-help-support), but other functionality is currently not available in US Government tenants.
+
 
 ### See also
 
