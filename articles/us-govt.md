@@ -221,6 +221,13 @@ Also, refer to the [IP ranges](https://www.microsoft.com/download/confirmation.a
 - GCC and GCC High: Focus on AzureCloud.usgovtexas and AzureCloud.usgovvirginia.
 - DoD: Focus on USDoD East and USDoD Central. 
 
+
+>[!NOTE]
+> These IPs and URLs are what is required on the Power Automate side for functionality to work in Goverment Cloud. There may be additional IPs and URLs that you may need from the Office side and as such you should also confirm them
+> - GCC:  https://docs.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
+> - GCCH: https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints?view=o365-worldwide
+> - DoD:  https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints?view=o365-worldwide
+
 ## Connectivity between Power Automate US Government and Public Azure Cloud services
 
 Azure is distributed among multiple clouds. By default, tenants are allowed to
